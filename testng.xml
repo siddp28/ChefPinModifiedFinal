@@ -26,5 +26,11 @@
       <class name="Academy.validateNavigationBar"/>
    </classes>
       </test>
+      
+       <test name="Url Testing">
+         <classes>
+      <class name="Academy.ValidateChefPinDinerLogin"/>
+       </classes>
+      </test>
    <!-- Test -->
 </suite> <!-- Suite -->

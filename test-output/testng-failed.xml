@@ -15,4 +15,14 @@
       </class> <!-- Academy.validateTitle -->
     </classes>
   </test> <!-- Validating title in the Page(failed) -->
+  <test thread-count="5" name="Url Testing(failed)">
+    <classes>
+      <class name="Academy.ValidateChefPinDinerLogin">
+        <methods>
+          <include name="validateChefPinDLogin"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.ValidateChefPinDinerLogin -->
+    </classes>
+  </test> <!-- Url Testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->
